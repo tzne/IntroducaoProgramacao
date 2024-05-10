@@ -1,0 +1,7 @@
+* IntroducaoProgramacao
+Exercícios da matéria de Introdução à Programação, lecionadas por Tiago Agostinho de Almeida no curso de Ciência da Computação da UFSCar Sorocaba
+
++ [[./Lista 1/][Lista 1: Hello, World!]]
++ [[./Lista 2/][Lista 2: Variáveis, constantes, comandos de E/S, operações aritméticas]]
++ [[./Lista 3/][Lista 3: Expressões relacionais, lógicas e Comandos condicionais]]
++ [[./Lista 4/][Lista 4: Comandos de Repetição I: while e do-while]]
