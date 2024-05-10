@@ -1,4 +1,4 @@
-* IntroducaoProgramacao
+* Introdução à Programação
 Exercícios da matéria de Introdução à Programação, lecionadas por Tiago Agostinho de Almeida no curso de Ciência da Computação da UFSCar Sorocaba
 
 + [[./Lista 1/][Lista 1: Hello, World!]]
