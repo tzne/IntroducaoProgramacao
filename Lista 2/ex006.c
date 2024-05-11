@@ -16,10 +16,11 @@ respectivamente. Os resultados devem ter uma casa decimal de precisão. */
 #include <stdio.h>
 
 int main() {
-  int metros, centimetros;
-  float pes, polegadas, jardas, milhas;
+  float pes, polegadas, jardas, milhas, metros, centimetros;
 
-  scanf("%d", &metros);
+  printf("Insira uma medida (em metros): ");
+  scanf("%f", &metros);
+
   centimetros = metros*100;
 
   pes = centimetros / 30.48;
@@ -27,10 +28,10 @@ int main() {
   jardas = centimetros / 91.44;
   milhas = metros / 1609.344;
 
-  printf("%.1f\n", pes);
-  printf("%.1f\n", polegadas);
-  printf("%.1f\n", jardas);
-  printf("%.1f\n", milhas);
+  printf("%.1f metros = %.1f pés\n", metros, pes);
+  printf("%.1f metros = %.1f polegadas\n", metros, polegadas);
+  printf("%.1f metros = %.1f jardas\n", metros, jardas);
+  printf("%.1f metros = %.1f milhas\n", metros, milhas);
 
   return 0;
 }

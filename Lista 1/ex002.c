@@ -14,10 +14,12 @@ int main (){
 
 	float salario;
 	
+	printf("Insira o salário do funcionário: R$");
 	scanf("%f", &salario);
+
 	salario *= 1.22;
 	
-	printf("%.2f\n", salario);
+	printf("O novo salário do funcionário, com reajuste de 22%% é de R$%.2f\n", salario);
 
 	return (0);
 }

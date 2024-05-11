@@ -16,16 +16,18 @@ A saída do programa será o resultado de f(x), com duas casas decimais. */
 #include <stdio.h>
 
 int main() {
-  int a,b,c;   // inicializa as variáveis de coeficiente 
+  int a, b, c;   // inicializa as variáveis de coeficiente 
   double x, fx; // Incializa as variáveis de x e de f(x)
 
-  scanf("%d%d%d", &a, &b, &c); // l
+  printf("Insira os coeficientes a, b e c (a b c): ");
+  scanf("%d%d%d", &a, &b, &c);
 
+  printf("Insira o valor de x: ");
   scanf("%lf", &x);
 
   fx = a*(x*x) + b*x+ + c;
 
-  printf("%.2f\n", fx);
+  printf("f(x) = %.2f\n", fx);
 
   return 0;
 }

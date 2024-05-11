@@ -19,14 +19,16 @@ int main (){
 
   int idade, ano_idade, nascimento, ano_122;
 
+  printf("Insira a sua idade: ");
   scanf("%d", &idade);
+  printf("Insira o ano em que completou a idade: ");
   scanf("%d", &ano_idade);
 
   nascimento = ano_idade - idade;
 
   ano_122 = nascimento + 122;
 
-  printf("%d\n", ano_122);
+  printf("Você terá 122 anos em %d\n", ano_122);
 
   return (0);
 }
